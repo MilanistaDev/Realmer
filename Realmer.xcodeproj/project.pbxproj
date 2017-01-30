@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190C64D81E3F1EB900992B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C64D71E3F1EB900992B45 /* AppDelegate.swift */; };
+		190C64DA1E3F1EB900992B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C64D91E3F1EB900992B45 /* ViewController.swift */; };
+		190C64DD1E3F1EB900992B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C64DB1E3F1EB900992B45 /* Main.storyboard */; };
+		190C64DF1E3F1EB900992B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190C64DE1E3F1EB900992B45 /* Assets.xcassets */; };
+		190C64E21E3F1EB900992B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C64E01E3F1EB900992B45 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		190C64D41E3F1EB900992B45 /* Realmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190C64D71E3F1EB900992B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		190C64D91E3F1EB900992B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		190C64DC1E3F1EB900992B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		190C64DE1E3F1EB900992B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		190C64E11E3F1EB900992B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		190C64E31E3F1EB900992B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190C64D11E3F1EB900992B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190C64CB1E3F1EB900992B45 = {
+			isa = PBXGroup;
+			children = (
+				190C64D61E3F1EB900992B45 /* Realmer */,
+				190C64D51E3F1EB900992B45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190C64D51E3F1EB900992B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190C64D41E3F1EB900992B45 /* Realmer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190C64D61E3F1EB900992B45 /* Realmer */ = {
+			isa = PBXGroup;
+			children = (
+				190C64D71E3F1EB900992B45 /* AppDelegate.swift */,
+				190C64D91E3F1EB900992B45 /* ViewController.swift */,
+				190C64DB1E3F1EB900992B45 /* Main.storyboard */,
+				190C64DE1E3F1EB900992B45 /* Assets.xcassets */,
+				190C64E01E3F1EB900992B45 /* LaunchScreen.storyboard */,
+				190C64E31E3F1EB900992B45 /* Info.plist */,
+			);
+			path = Realmer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190C64D31E3F1EB900992B45 /* Realmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190C64E61E3F1EB900992B45 /* Build configuration list for PBXNativeTarget "Realmer" */;
+			buildPhases = (
+				190C64D01E3F1EB900992B45 /* Sources */,
+				190C64D11E3F1EB900992B45 /* Frameworks */,
+				190C64D21E3F1EB900992B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Realmer;
+			productName = Realmer;
+			productReference = 190C64D41E3F1EB900992B45 /* Realmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190C64CC1E3F1EB900992B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "麻生 拓弥";
+				TargetAttributes = {
+					190C64D31E3F1EB900992B45 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7M7ZGYSAKB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 190C64CF1E3F1EB900992B45 /* Build configuration list for PBXProject "Realmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 190C64CB1E3F1EB900992B45;
+			productRefGroup = 190C64D51E3F1EB900992B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190C64D31E3F1EB900992B45 /* Realmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190C64D21E3F1EB900992B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190C64E21E3F1EB900992B45 /* LaunchScreen.storyboard in Resources */,
+				190C64DF1E3F1EB900992B45 /* Assets.xcassets in Resources */,
+				190C64DD1E3F1EB900992B45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190C64D01E3F1EB900992B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190C64DA1E3F1EB900992B45 /* ViewController.swift in Sources */,
+				190C64D81E3F1EB900992B45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		190C64DB1E3F1EB900992B45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190C64DC1E3F1EB900992B45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		190C64E01E3F1EB900992B45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190C64E11E3F1EB900992B45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190C64E41E3F1EB900992B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		190C64E51E3F1EB900992B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		190C64E71E3F1EB900992B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				INFOPLIST_FILE = Realmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.Realmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		190C64E81E3F1EB900992B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				INFOPLIST_FILE = Realmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.Realmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190C64CF1E3F1EB900992B45 /* Build configuration list for PBXProject "Realmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190C64E41E3F1EB900992B45 /* Debug */,
+				190C64E51E3F1EB900992B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190C64E61E3F1EB900992B45 /* Build configuration list for PBXNativeTarget "Realmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190C64E71E3F1EB900992B45 /* Debug */,
+				190C64E81E3F1EB900992B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 190C64CC1E3F1EB900992B45 /* Project object */;
+}
