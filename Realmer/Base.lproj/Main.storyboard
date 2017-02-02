@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12100" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cEt-LX-H7C">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cEt-LX-H7C">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12072"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,18 +38,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxz-iF-aFf">
-                                <rect key="frame" x="159" y="497" width="57" height="30"/>
+                                <rect key="frame" x="162" y="497" width="51" height="30"/>
+                                <state key="normal" title="Browse"/>
+                                <connections>
+                                    <segue destination="rMY-qY-tw6" kind="show" id="Mtd-Mo-wrg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Spu-vz-yOd">
+                                <rect key="frame" x="158.5" y="431" width="57" height="30"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <action selector="registerColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nga-14-6OB"/>
-                                    <segue destination="rMY-qY-tw6" kind="show" id="h4O-HT-GLC"/>
+                                    <action selector="registerColorData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pZV-bQ-ZbH"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="rxz-iF-aFf" firstAttribute="top" secondItem="Spu-vz-yOd" secondAttribute="bottom" constant="36" id="2xu-Hs-NWe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rxz-iF-aFf" secondAttribute="bottom" constant="140" id="c7i-xr-37a"/>
                             <constraint firstItem="rxz-iF-aFf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pWw-v7-O9E"/>
+                            <constraint firstItem="Spu-vz-yOd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uci-Bh-XTI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="v2X-5X-HZ3"/>

@@ -20,12 +20,18 @@ class ViewController: UIViewController {
         print(dataContent)
     }
 
-    @IBAction func registerColor(_ sender: Any) {
+
+    @IBAction func registerColorData(_ sender: Any) {
         realmDB.id = 1
         realmDB.colorName = "Ginza Line"
         realmDB.rgbValue = "(243, 151, 0)"
         realmDB.hexValue = "F39700"
         self.storeColorData()
+
+        let alert = UIAlertController(title: "Registered collectly", message: "Your data was stored collectly. Please push the Browse buton and check the data.", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
     }
 
     func storeColorData() {
