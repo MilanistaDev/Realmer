@@ -25,10 +25,7 @@ class ViewController: UIViewController {
         realmDB.colorName = "Ginza Line"
         realmDB.rgbValue = "(243, 151, 0)"
         realmDB.hexValue = "F39700"
-        let realm = try! Realm()
-        realm.beginWrite()
-        //self.storeColorData()
-        //self.findColorData()
+        self.storeColorData()
     }
 
     func storeColorData() {
@@ -41,12 +38,8 @@ class ViewController: UIViewController {
 
         }
     }
-    func findColorData() {
-        let realm = try! Realm()
-        let dataContent = realm.objects(ColorModel.self)
-        print(dataContent)
-    }
 
+    /** Not yet
     func dataUpdate() {
 
         do {
@@ -77,7 +70,7 @@ class ViewController: UIViewController {
             
         }
     }
-
+     */
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
