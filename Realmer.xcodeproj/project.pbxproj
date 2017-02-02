@@ -12,6 +12,11 @@
 		190C64DD1E3F1EB900992B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C64DB1E3F1EB900992B45 /* Main.storyboard */; };
 		190C64DF1E3F1EB900992B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190C64DE1E3F1EB900992B45 /* Assets.xcassets */; };
 		190C64E21E3F1EB900992B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C64E01E3F1EB900992B45 /* LaunchScreen.storyboard */; };
+		19A7B32B1E41743000AAC616 /* DataBrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A7B32A1E41743000AAC616 /* DataBrowseViewController.swift */; };
+		19A7B32E1E41753000AAC616 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A7B32C1E41753000AAC616 /* DataTableViewCell.swift */; };
+		19A7B32F1E41753000AAC616 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A7B32D1E41753000AAC616 /* DataTableViewCell.xib */; };
+		19DEB1B31E402196008F0F75 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB1B21E402196008F0F75 /* ColorModel.swift */; };
+		F254AA4911D2D8E861986ACE /* Pods_Realmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5F6212A0018172FE99BD95 /* Pods_Realmer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		190C64DE1E3F1EB900992B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190C64E11E3F1EB900992B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190C64E31E3F1EB900992B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A7B32A1E41743000AAC616 /* DataBrowseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBrowseViewController.swift; sourceTree = "<group>"; };
+		19A7B32C1E41753000AAC616 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		19A7B32D1E41753000AAC616 /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		19DEB1B21E402196008F0F75 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		9F5F6212A0018172FE99BD95 /* Pods_Realmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8069B63D0C2EB9D47F7DF0D /* Pods-Realmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realmer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realmer/Pods-Realmer.debug.xcconfig"; sourceTree = "<group>"; };
+		E079CD63724735145CE1BCB8 /* Pods-Realmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realmer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realmer/Pods-Realmer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F254AA4911D2D8E861986ACE /* Pods_Realmer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1134B46D285403B447959DBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8069B63D0C2EB9D47F7DF0D /* Pods-Realmer.debug.xcconfig */,
+				E079CD63724735145CE1BCB8 /* Pods-Realmer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		190C64CB1E3F1EB900992B45 = {
 			isa = PBXGroup;
 			children = (
 				190C64D61E3F1EB900992B45 /* Realmer */,
 				190C64D51E3F1EB900992B45 /* Products */,
+				1134B46D285403B447959DBE /* Pods */,
+				77779BFB31E57436430E0248 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +80,24 @@
 			children = (
 				190C64D71E3F1EB900992B45 /* AppDelegate.swift */,
 				190C64D91E3F1EB900992B45 /* ViewController.swift */,
+				19A7B32C1E41753000AAC616 /* DataTableViewCell.swift */,
+				19A7B32D1E41753000AAC616 /* DataTableViewCell.xib */,
+				19A7B32A1E41743000AAC616 /* DataBrowseViewController.swift */,
+				19DEB1B21E402196008F0F75 /* ColorModel.swift */,
 				190C64DB1E3F1EB900992B45 /* Main.storyboard */,
 				190C64DE1E3F1EB900992B45 /* Assets.xcassets */,
 				190C64E01E3F1EB900992B45 /* LaunchScreen.storyboard */,
 				190C64E31E3F1EB900992B45 /* Info.plist */,
 			);
 			path = Realmer;
+			sourceTree = "<group>";
+		};
+		77779BFB31E57436430E0248 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F6212A0018172FE99BD95 /* Pods_Realmer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 190C64E61E3F1EB900992B45 /* Build configuration list for PBXNativeTarget "Realmer" */;
 			buildPhases = (
+				3AEC87B59417FA38C6ED9352 /* [CP] Check Pods Manifest.lock */,
 				190C64D01E3F1EB900992B45 /* Sources */,
 				190C64D11E3F1EB900992B45 /* Frameworks */,
 				190C64D21E3F1EB900992B45 /* Resources */,
+				61279E6967F323D362F653B0 /* [CP] Embed Pods Frameworks */,
+				5A3E29E7E089E079B68A506C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,18 +166,70 @@
 				190C64E21E3F1EB900992B45 /* LaunchScreen.storyboard in Resources */,
 				190C64DF1E3F1EB900992B45 /* Assets.xcassets in Resources */,
 				190C64DD1E3F1EB900992B45 /* Main.storyboard in Resources */,
+				19A7B32F1E41753000AAC616 /* DataTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEC87B59417FA38C6ED9352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3E29E7E089E079B68A506C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realmer/Pods-Realmer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61279E6967F323D362F653B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realmer/Pods-Realmer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		190C64D01E3F1EB900992B45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A7B32B1E41743000AAC616 /* DataBrowseViewController.swift in Sources */,
 				190C64DA1E3F1EB900992B45 /* ViewController.swift in Sources */,
+				19A7B32E1E41753000AAC616 /* DataTableViewCell.swift in Sources */,
 				190C64D81E3F1EB900992B45 /* AppDelegate.swift in Sources */,
+				19DEB1B31E402196008F0F75 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +350,7 @@
 		};
 		190C64E71E3F1EB900992B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8069B63D0C2EB9D47F7DF0D /* Pods-Realmer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
@@ -272,6 +364,7 @@
 		};
 		190C64E81E3F1EB900992B45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E079CD63724735145CE1BCB8 /* Pods-Realmer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
@@ -302,6 +395,7 @@
 				190C64E81E3F1EB900992B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

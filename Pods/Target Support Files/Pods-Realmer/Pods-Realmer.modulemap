@@ -1,0 +1,6 @@
+framework module Pods_Realmer {
+  umbrella header "Pods-Realmer-umbrella.h"
+
+  export *
+  module * { export * }
+}
